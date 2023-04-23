@@ -1,0 +1,6 @@
+[env]
+CFG_RELEASE = "0.0.1"
+CFG_RELEASE_CHANNEL = "broken"
+RUSTC_INSTALL_BINDIR = { value = ".", relative = true }
+# hardcoded because i cba
+CFG_COMPILER_HOST_TRIPLE = "x86_64-unknown-linux-gnu"

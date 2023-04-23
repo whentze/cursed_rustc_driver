@@ -1,0 +1,7 @@
+[package]
+name = "cursed_rustc_driver"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rustc_driver = { git = "https://github.com/rust-lang/rust.git", rev = "b628260df0587ae559253d8640ecb8738d3de613" }
